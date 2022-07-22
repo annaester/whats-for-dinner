@@ -130,6 +130,10 @@ a:hover {
 }
 
 @media (max-width: 570px) {
+  body {
+    background-image: url(./fruits.jpg);
+    background-position: bottom;
+  }
   .wrapper {
     padding: 10px 20px 20px;
     width: 70%;
@@ -140,6 +144,7 @@ a:hover {
   main {
     flex-direction: column;
   }
+
   .dinner,
   .drinks {
     width: 100%;
